@@ -12,7 +12,6 @@ body {
 }
 
 .prvaStrana {
-	min-width: 1080px;
 	height: 60vh;
 	font-family: "Inconsolata", monospace;
 	display: flex;
@@ -57,7 +56,6 @@ body {
 }
 
 .aboutme {
-	min-width: 1080px;
 	height: 250px;
 	display: flex;
 	flex-direction: row;

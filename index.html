@@ -18,7 +18,7 @@
 		<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+		<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top">
 			<p class="navbar-brand col-2" href="#">LOGO</p>
 
 			<button
@@ -30,7 +30,10 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 
-			<div class="collapse navbar-collapse" id="listaNavigacije">
+			<div
+				class="collapse navbar-collapse justify-content-end"
+				id="listaNavigacije"
+			>
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#">About me</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
@@ -41,8 +44,8 @@
 		</nav>
 
 		<main>
-			<div class="prvaStrana">
-				<div class="levaStrana">
+			<div class="row prvaStrana">
+				<div class="col-lg-6 levaStrana">
 					<h1 class="ime">Marina Krajčik</h1>
 					<h3 class="svetliText">Web Developer</h3>
 					<p class="svetliParagraf">
@@ -50,7 +53,7 @@
 						others
 					</p>
 				</div>
-				<div class="desnaStrana">
+				<div class="col-lg-6 desnaStrana">
 					<img src="profilepic.jpg" alt="profilePicture" />
 				</div>
 			</div>
