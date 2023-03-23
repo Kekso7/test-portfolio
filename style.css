@@ -1,0 +1,212 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #1b1a17;
+}
+
+.navigacija {
+	background-color: #1b1a17;
+	width: 1440px;
+	padding: 0px 80px;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 400px;
+	position: fixed;
+}
+
+.anavigacija a {
+	color: #f0e3ca;
+	padding-left: 20px;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: "Inconsolata", monospace;
+	text-decoration: none;
+}
+
+.anavigacija a:hover {
+	color: #ff8303;
+	text-decoration: none;
+}
+
+.prvaStrana {
+	min-width: 1080px;
+	height: 60vh;
+	font-family: "Inconsolata", monospace;
+	display: flex;
+	flex-direction: row;
+}
+
+.levaStrana {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 50px;
+}
+
+.desnaStrana {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.desnaStrana img {
+	width: 50%;
+}
+
+.ime {
+	color: #ff8303;
+	font-weight: 900;
+	font-size: 64px;
+}
+
+.svetliText {
+	color: #f0e3ca;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.svetliParagraf {
+	color: #f0e3ca;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.aboutme {
+	min-width: 1080px;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	padding-left: 150px;
+	padding-right: 150px;
+	justify-content: center;
+	align-items: center;
+	font-family: "Inconsolata", monospace;
+	font-weight: 400;
+}
+
+.aboutme p {
+	color: #f0e3ca;
+	text-align: center;
+}
+
+.mySkills {
+	padding-bottom: 50px;
+	padding-top: 50px;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	justify-content: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+	width: 150px;
+	height: 200px;
+	background-color: #21201d;
+	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+.logo {
+	color: #f0e3ca;
+}
+
+.mySkills h3 {
+	color: #f0e3ca;
+	padding-top: 10px;
+	font-family: "Inconsolata", monospace;
+}
+
+.fa-html5:hover {
+	color: #fc490b;
+}
+
+.fa-css3-alt:hover {
+	color: #ffdf00;
+}
+
+.fa-square-js:hover {
+	color: #3757f7;
+}
+
+.fa-github:hover {
+	color: #ffff;
+}
+
+.mojRad {
+	color: #ff8303;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.myWorks {
+	font-family: "Inconsolata", monospace;
+	font-size: 32px;
+	font-weight: 700;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.boxA {
+	width: 320px;
+	height: 320px;
+	text-align: center;
+	margin-bottom: 50px;
+	padding-top: 20px;
+	background-image: url(./website1.jpg);
+}
+
+.noviBlog {
+	color: #ff8303;
+	font-size: 32px;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.boxA h6 {
+	color: #f0e3ca;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.paragrafA {
+	color: #f0e3ca;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: start;
+	padding: 20px;
+}
+
+.image img {
+	width: 50%;
+}
+
+button h6 {
+	color: #f0e3ca;
+	background-color: #1b1a17;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+button h6:hover {
+	background-color: #32312e;
+}
