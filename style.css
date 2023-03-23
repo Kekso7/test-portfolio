@@ -7,6 +7,9 @@
 body {
 	background-color: #1b1a17;
 }
+.navbar-brand {
+	margin-bottom: 0;
+}
 
 .prvaStrana {
 	min-width: 1080px;
@@ -140,11 +143,12 @@ body {
 
 .boxA {
 	width: 320px;
-	height: 320px;
+	height: 360px;
 	text-align: center;
 	margin-bottom: 50px;
 	padding-top: 20px;
-	background-image: url(./website1.jpg);
+	background-color: rgba(33, 32, 29, 0.8);
+	border-radius: 10px;
 }
 
 .noviBlog {
