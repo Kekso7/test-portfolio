@@ -11,57 +11,31 @@ body {
 	margin-bottom: 0;
 }
 
-.prvaStrana {
-	height: 60vh;
-	font-family: "Inconsolata", monospace;
-	display: flex;
-	flex-direction: row;
+.ime {
+	color: #ff8303;
+	padding-top: 250px;
 }
 
-.levaStrana {
-	width: 50%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-left: 50px;
+.svetliText,
+.svetliParagraf {
+	color: #f0e3ca;
 }
 
 .desnaStrana {
-	width: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding-top: 200px;
+	padding-left: 200px;
 }
 
 .desnaStrana img {
-	width: 50%;
-}
-
-.ime {
-	color: #ff8303;
-	font-weight: 900;
-	font-size: 64px;
-}
-
-.svetliText {
-	color: #f0e3ca;
-	font-weight: 700;
-	font-size: 40px;
-}
-
-.svetliParagraf {
-	color: #f0e3ca;
-	font-weight: 400;
-	font-size: 20px;
+	border-radius: 50px 150px 50px 50px;
+	width: 200px;
 }
 
 .aboutme {
-	height: 250px;
 	display: flex;
+	padding-top: 100px;
 	flex-direction: row;
 	gap: 50px;
-	padding-left: 150px;
-	padding-right: 150px;
 	justify-content: center;
 	align-items: center;
 	font-family: "Inconsolata", monospace;
