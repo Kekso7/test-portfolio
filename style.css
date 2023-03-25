@@ -176,3 +176,34 @@ button h6 {
 button h6:hover {
 	background-color: #32312e;
 }
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.left {
+	width: 200px;
+}
+
+.left p {
+	color: #f0e3ca;
+	font-family: "Inconsolata", monospace;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.right {
+	color: #ff8303;
+}
+
+li {
+	list-style-type: none;
+	cursor: pointer;
+	padding-top: 5px;
+}
+
+.bojaLogo {
+	color: white;
+	padding-right: 10px;
+}
