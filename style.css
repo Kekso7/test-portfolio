@@ -180,7 +180,8 @@ button h6:hover {
 footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
+	gap: 200px;
 }
 .left {
 	width: 200px;
