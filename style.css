@@ -13,17 +13,14 @@ body {
 
 .ime {
 	color: #ff8303;
-	padding-top: 250px;
 }
 
 .svetliText,
 .svetliParagraf {
 	color: #f0e3ca;
 }
-
-.desnaStrana {
-	padding-top: 200px;
-	padding-left: 200px;
+.prvaStrana {
+	margin-top: 100px;
 }
 
 .desnaStrana img {
@@ -207,4 +204,94 @@ li {
 .bojaLogo {
 	color: white;
 	padding-right: 10px;
+}
+@media only screen and (min-width: 641px) and (max-width: 1080px) {
+	.prvaStrana {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ime {
+		font-size: 50px;
+	}
+	.svetliParagraf {
+		padding-bottom: 30px;
+	}
+
+	.triBoxa {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.boxA {
+		margin-bottom: 5px;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 20px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.prvaStrana {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ime {
+		font-size: 50px;
+	}
+	.svetliParagraf {
+		padding-bottom: 30px;
+	}
+	.aboutme {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.mySkills {
+		flex-direction: column;
+		display: flex;
+		align-items: center;
+	}
+
+	.box1,
+	.box2,
+	.box3,
+	.box4 {
+		width: 200px;
+		height: 50px;
+		background-color: #21201d;
+		border-radius: 10px;
+		font-size: 4px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 20px;
+		padding-left: 20px;
+	}
+
+	.triBoxa {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.boxA {
+		margin-bottom: 5px;
+	}
+
+	footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		gap: 20px;
+	}
 }
